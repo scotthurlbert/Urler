@@ -23,7 +23,7 @@ namespace Urler.Controllers
             {
                 LastUrl = url;
             }
-            return RedirectToAction( "Index" );
+            return Redirect( LastUrl );
         }
 
         public JsonResult GetUrl()
