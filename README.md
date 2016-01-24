@@ -11,10 +11,10 @@ This little web app does that in about 10 lines of code.
 
 # To Use
 
-Create a bookmarklet named "SaveUrl" that has this code (be sure to replace <YOUR_DEPLOYMENT_ADDRESS_HERE> with the actual location of the site):
+Create a bookmarklet named "SaveUrl" that has this code (be sure to replace "YOUR_DEPLOYMENT_ADDRESS_HERE" with the actual location of the site):
 
-javascript:(function(){var newURI='http://<YOUR_DEPLOYMENT_ADDRESS_HERE>/Urler/Home/SaveUrl?url='+encodeURIComponent(window.location.href);window.location=newURI;})()
+javascript:(function(){var newURI='http://YOUR_DEPLOYMENT_ADDRESS_HERE/Urler/Home/SaveUrl?url='+encodeURIComponent(window.location.href);window.location=newURI;})()
 
 Then when you want to get back to the url, hit:
 
-http://<YOUR_DEPLOYMENT_ADDRESS_HERE>/Urler/Home/GotoUrl
+http://YOUR_DEPLOYMENT_ADDRESS_HERE/Urler/Home/GotoUrl
