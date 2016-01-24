@@ -18,3 +18,9 @@ javascript:(function(){var newURI='http://YOUR_DEPLOYMENT_ADDRESS_HERE/Urler/Hom
 Then when you want to get back to the url, hit:
 
 http://YOUR_DEPLOYMENT_ADDRESS_HERE/Urler/Home/GotoUrl
+
+# NOTE:
+
+There is no persistence here.  I just made the url a static property.  As soon as your app pool recycles or your IIS dozes off, your url is gone.  Redeploy, gone.
+
+It would take about 30 seconds to add persistence so have at it.
