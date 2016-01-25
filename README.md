@@ -5,7 +5,7 @@ This may be the stupidest project I've ever created.  When you hit it with a url
 
 That's it.
 
-Why?  Well I have a kitchen in the computer.  I wanted to be able to send a url from my other computers to this computer without syncing bookmarks.
+Why?  Well I have a computer in the kitchen.  I wanted to be able to send a url from my other computers to this computer without syncing bookmarks.
 
 This little web app does that in about 10 lines of code.
 
